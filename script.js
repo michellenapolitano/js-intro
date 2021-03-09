@@ -100,4 +100,14 @@ console.log(movies);
 var variable =[restaurants, things, city, movies]
 console.log(variable);
 
-console.log("Loop Confusion");
+var lists = [restaurants, things, city, movies];
+console.log(lists);
+
+lists.forEach(function(array) {
+  array.forEach(function(item) {
+    console.log(item);  
+  });
+});
+
+var lists = [{restaurants, things, city, movies}];
+console.log(lists);
